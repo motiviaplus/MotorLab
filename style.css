@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080d16;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  border-bottom: 1px solid #23354b;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: #299cff;
+}
+
+.creator {
+  color: #8295ad;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.hero {
+  min-height: 470px;
+  padding: 110px 7%;
+  background: linear-gradient(120deg, #142d4c, #080d16 75%);
+}
+
+.eyebrow {
+  color: #299cff;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 8vw, 76px);
+  margin: 22px 0;
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+.hero h1 span {
+  color: #299cff;
+}
+
+.intro {
+  color: #a9b8ca;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+button {
+  background: #168cff;
+  color: white;
+  border: none;
+  padding: 17px 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a9ff;
+}
+
+.section {
+  padding: 65px 7%;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading h2 {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: #111d2c;
+  border: 1px solid #263c55;
+  border-radius: 9px;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.feature-card:hover {
+  border-color: #299cff;
+  transform: translateY(-4px);
+}
+
+.number {
+  color: #299cff;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.feature-card h3 {
+  margin: 20px 0 12px;
+  font-size: 19px;
+}
+
+.feature-card p {
+  color: #9aacc2;
+  line-height: 1.6;
+}
+
+footer {
+  border-top: 1px solid #23354b;
+  padding: 30px;
+  text-align: center;
+  color: #8295ad;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 80px 7%;
+  }
+}
