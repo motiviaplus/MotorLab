@@ -1,0 +1,26 @@
+
+console.log("MOTORLAB is running!");
+
+function openStudio() {
+  alert("Welcome to the MOTORLAB 3D Design Studio!");
+}
+
+function openGarage() {
+  alert("Welcome to your MOTORLAB Garage!");
+}
+
+function openTestDrive() {
+  alert("MOTORLAB Test Drive is coming soon!");
+}
+
+function openDrift() {
+  alert("Welcome to MOTORLAB Drift Mode!");
+}
+
+function changeCarColor(color) {
+  const preview = document.getElementById("carPreview");
+
+  if (preview) {
+    preview.style.backgroundColor = color;
+  }
+}
