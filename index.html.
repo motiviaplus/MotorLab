@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d16">
+  <title>MOTORLAB | Automotive Design Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">MOTOR<span>LAB</span></div>
+    <div class="creator">CREATED BY STEPHEN CUDMORE</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">THE AUTOMOTIVE CREATION STUDIO</p>
+      <h1>YOUR WORLD.<br><span>YOUR MACHINES.</span></h1>
+      <p class="intro">Design your dream vehicle. Customize every detail. Make it yours.</p>
+      <button onclick="openStudio()">ENTER MOTORLAB</button>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">EXPLORE THE EXPERIENCE</p>
+        <h2>YOUR MOTORLAB</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card" onclick="openStudio()">
+          <span class="number">01 / CREATE</span>
+          <h3>3D DESIGN STUDIO</h3>
+          <p>Build and customize your dream vehicles.</p>
+        </article>
+
+        <article class="feature-card" onclick="openGarage()">
+          <span class="number">02 / CUSTOMIZE</span>
+          <h3>MY GARAGE</h3>
+          <p>Explore paint, finishes and vehicle details.</p>
+        </article>
+
+        <article class="feature-card" onclick="openTestDrive()">
+          <span class="number">03 / EXPERIENCE</span>
+          <h3>TEST DRIVE</h3>
+          <p>Take your creations onto the road.</p>
+        </article>
+
+        <article class="feature-card" onclick="openDrift()">
+          <span class="number">04 / MASTER</span>
+          <h3>DRIFT MODE</h3>
+          <p>Explore four dedicated drift arenas.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© MOTORLAB — CREATED BY STEPHEN CUDMORE</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
